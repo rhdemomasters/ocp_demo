@@ -9,3 +9,6 @@ spec:
     repoURL: https://github.com/rhdemomasters/ocp_demo.git
     targetRevision: HEAD
     path: demo1
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: argocd

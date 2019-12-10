@@ -8,7 +8,7 @@ metadata:
 spec:
   destination:
     namespace: app2
-    server: {{ .Values.spec.destination.server }}
+    server: https://kubernetes.default.svc
   project: default
   source:
     path: helm-guestbook
