@@ -30,7 +30,7 @@ metadata:
   name: servicemeshoperator
   namespace: openshift-operators 
 spec:
-  channel: stable
+  channel: '1.0'
   name: servicemeshoperator
   source: redhat-operators
   sourceNamespace: openshift-marketplace 
