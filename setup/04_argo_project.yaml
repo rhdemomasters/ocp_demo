@@ -1,0 +1,11 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: app_of_apps
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/rhdemomasters/ocp_demo.git
+    targetRevision: HEAD
+    path: demo1
