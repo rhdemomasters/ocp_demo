@@ -8,8 +8,9 @@ metadata:
 spec:
   destination:
     namespace: app1
+    server: https://kubernetes.default.svc
   project: default
   source:
-    path: helm-guestbook
+    path: app1
     repoURL: {{ .Values.spec.source.repoURL }}
     targetRevision: {{ .Values.spec.source.targetRevision }}
