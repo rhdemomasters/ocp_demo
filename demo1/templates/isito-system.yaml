@@ -12,5 +12,5 @@ spec:
   project: default
   source:
     path: istio-system
-    repoURL: {{ .Values.spec.source.repoURL }}
+    repoURL: https://github.com/rhdemomasters/istio-system-demo.git
     targetRevision: {{ .Values.spec.source.targetRevision }}
